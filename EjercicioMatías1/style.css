@@ -1,36 +1,39 @@
 *{
     margin: 0;
 }
+body{
+    background: red;
+}
 
 section{
-    position: relative;
+    background: #e4f2fd;
+    margin: 100px;
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0 #334454;
 }
 
 .divImagen{
     position: absolute;
-    width: 170px;
-    height: 18px;
-    transform: translate(10%, 80%);
-    top: 85%;
     color: #fff;
+    top: 270px;
+ /*   left: 25px;*/
+    justify-content: space-between;
 }
 
 .fdoCartel{
-    position: absolute;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e4f2fd;
     transform: translate(0%, -10%);
-    width: 340px;
 }
 
-img{
-    width: 25%;
-    height: 25%;
+.imgMountain{
+    width: 100%;
 }
 
 h3{
     color: #334454;
-
 }
 
 p{
@@ -39,23 +42,23 @@ p{
 
 .textos{
     display:inline-block;
-    transform: translate(0%, -90%);
+    transform: translate(0%, -15%);
 }
 
 .circular--landscape {
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     border-radius: 50%;
   }
   
-  .circular--landscape img {
-    width: auto;
+.circular--landscape img {
     height: 100%;
-    margin-left: -25px;
-  }
+    margin-left: -12px;
+}
+
 /*
 .fotoCircular{
     border-top-left-radius: 50% 50%;
