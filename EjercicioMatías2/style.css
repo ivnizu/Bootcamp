@@ -92,6 +92,11 @@ button:hover{
     transform: translate(0, 50%);
 }
 
+.divOferta{
+    transform: translate(-20%, 0);
+
+}
+
 .divLink{
     transform: translate(0%, 20%);
 }
