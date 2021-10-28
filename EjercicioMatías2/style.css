@@ -15,22 +15,24 @@ section{
     position: relative;
     display: inline-block;
     width: 300px;
-    height: 500px;
+    height: 470px;
     color: black;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+    overflow: hidden;
     background-color: #e4f2fd;
 }
 
 img{
     width: 100%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+/*    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;  */
     display:inline-block;
 }
 
 h2{
     font-size: 2rem;
+    margin: 25px;
 }
 
 h3{
@@ -54,8 +56,8 @@ p{
 
 button{
     border-radius: 7px;
-    width: 200px;
-    height: 40px;
+    width: 280px;
+    height: 30px;
     border: none;
 }
 
@@ -66,10 +68,15 @@ button{
 
 .buttonCancelar{
     color: #5b7788;
+    
 }
 
 .row{
     display: flex;
+    background: #767e8321;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 0 10px 0 0;
 }
   
 .column{
@@ -77,14 +84,7 @@ button{
 }
 
 .divNota{
-    width: 30px;
-    height: 30px;
-    transform: translate(200%, 20%);
-    background: rgb(232, 215, 255);
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
+    transform: translate(0, 50%);
 }
 
 .divLink{
