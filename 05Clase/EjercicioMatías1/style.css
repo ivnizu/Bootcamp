@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: red;
+    text-align: center;
+}
+
+section{
+    position: absolute;
+}
+
+img{
+    margin: 30px 0 0 0;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #7f858a;
+}
+
+h1{
+    margin: 30px;
+}
+
+p{
+    margin: 30px;
+    color: #7f858a;;
+}
+
+
+.card{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 370px;
+    color: black;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.divAlto{
+    background:  #f7f5ec;
+    height: 320px;
+}
+
+.divIconos{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+    background: #1369ce;
+    height: 50px;
+    padding: 10px;
+}
+
+
+
+
+/*
+.divNota{
+    transform: translate(0, 50%);
+}
+
+.divOferta{
+    transform: translate(-20%, 0);
+}
+
+.divLink{
+    transform: translate(0%, 20%);
+}
+
+*/
