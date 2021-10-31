@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    margin: 0 0 0 30px;
+    text-align: left;
+}
+
+img{
+    width: 130%;
+}
+
+p{
+    text-align: center;
+    font-size: 10px;
+    margin: 40px 30px 0 30px;
+    color: rgb(128, 128, 128);
+    font-family: 'Farsan', cursive
+}
+
+section{
+    margin: 50px;
+}
+
+.card{
+    margin: 40px 0 0 30px;
+    background: #ece1dc;
+    width: 600px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.divTextos{
+    float: left;
+    width: 50%;
+    height: 390px;
+    border-radius: 5% 0 0 5%;
+    background: #f7f4fe;
+}
+
+.divFoto{
+    float: right;
+    width: 50%;
+    overflow: hidden;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.divPrecio{
+    display: inline-flex;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15%;
+    color: white;
+    font-family: 'Farsan', cursive;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.div49{
+    background: #333333;
+    width: 50%;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.boton{
+    font-family: 'Farsan', cursive;
+    color: white;
+    background-color: #49c608;
+    border: none;
+    width: 100%;
+    font-size: 22px;
+}
+
+.boton:hover {
+    background: #379206;
+}
+
+.iconos{
+    color: #ffd700;
+    margin: 0 0 0 30px;
+    font-size: 15px;
+}
+
+.cajaNaranja{
+    background: #ffa69e;
+    color: white;
+    font-family: 'Farsan', cursive;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 25px;
+    padding: 3px;
+    margin: 20px 0 -15px 200px;
+}
