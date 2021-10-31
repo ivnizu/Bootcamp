@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Bentham', serif;
+    font-size: 2rem;
+    margin: 40px 0 0 30px;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    margin: 0 0 0 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #d2d3d3;
+}
+
+p{
+    text-align: left;
+    font-size: 18px;
+    margin: 50px 3px 0 30px;
+    font-family: 'Trocchi', serif;
+}
+
+
+
+section{
+    margin: 50px;
+}
+
+.card{
+    position: absolute;
+    background: #ece1dc;
+    width: 600px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.divFoto{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 5% 0 0 5%;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.divTextos{
+    float: right;
+    width: 50%;
+    height: 420px;
+    border-radius: 0 5% 5% 0;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+
+.divPrecio{
+    margin: 50px 20px 0 30px;
+}
+
+.div78{
+    float: left;
+    font-size: 2rem;
+    padding: 5px 0 0 0;
+}
+
+.boton{
+    float: right;
+    font-family: 'Suranna', serif;
+    background: #9cebd5;
+    border-radius: 25px;
+    width: 70%;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.boton:hover {
+    background: #74ad9d;
+}
