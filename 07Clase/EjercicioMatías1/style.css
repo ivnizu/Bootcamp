@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-size: 10px;
+}
+
+body{
+    background: #343434;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+a{
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+ion-icon{
+    font-size: 2rem;
+    color: #959eae;
+    margin: 10px;
+}
+
