@@ -37,7 +37,11 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: red;
+    text-align: center;
+    
+    flex-direction: column;
 }
 
 .redes{
@@ -131,6 +135,10 @@ section{
     text-align: center;
 }
 
+.divInput{
+    
+}
+
 
 input{
     border: 1px #ffa500 solid;
@@ -139,14 +147,17 @@ input{
     width: 85%;
 }
 
+.icon{
+    color: rgb(102, 102, 102);
+}
+
 .boton{
     border-radius: 10px;
     color: #ffffff;
     background: #85c434;
-    padding: 5px;
     text-decoration: none;
     border: none;
-    width: 100%;
+    width: 95%;
     height: 50px;
     text-transform: uppercase;
     margin: 15px 0 0 0;
@@ -155,3 +166,4 @@ input{
 .boton:hover {
     background: #608d25;
 }
+
