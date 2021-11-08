@@ -5,8 +5,13 @@ function MostrarDiaHora() {
     let hora = new Date;
 
     hoy = hoy.getDay();
+
     hora = hora.getHours() + ':' + hora.getMinutes();
 
+    let semana = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes","Sábado"];
+
+    log(semana[hoy]);
+/*
     switch (hoy) {
         case 1: log("Hoy es: Lunes");
             break;
@@ -24,7 +29,7 @@ function MostrarDiaHora() {
             break;
         default: log("Perdón, acá pasó algo raro");
     }
-
+*/
     log("Hora actual: " + hora);
 }
 
