@@ -22,6 +22,7 @@ function MostrarDiaHora() {
             break;
         case 7: log("Hoy es: Domingo");
             break;
+        default: log("Perdón, acá pasó algo raro");
     }
 
     log("Hora actual: " + hora);
