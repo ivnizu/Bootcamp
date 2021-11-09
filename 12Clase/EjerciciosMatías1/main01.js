@@ -1,6 +1,6 @@
 const log = console.log;
 
-let num = 523;
+let num = 5235848;
 
 num = num.toString();
 
@@ -10,7 +10,7 @@ function calcularSumaDigitos(numero)
 {
     let res = 0;
 
-    for(i = 0; i < numero.lenght; i++)
+    for(i = 0; i < numero.length; i++)
     {
         res += parseInt(numero[i]);
     }
