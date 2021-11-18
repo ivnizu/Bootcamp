@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    border: 1px red solid;
+}
+
+body{
+    text-align: center;
+}
+
+.slider{
+    width: 800px;
+    height: 400px;
+}
+
