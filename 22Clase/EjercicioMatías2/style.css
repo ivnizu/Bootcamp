@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.numberTitle{
+    color: rgba(190, 190, 190, 0.76);
+}
+
+.technologySide{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    background-image: url(img/background-technology-desktop.jpg);
+    flex-wrap: wrap;
+}
+
+.technologyContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.numberSelector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.numberRedondo{
+    background: none;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 15px 30px 15px 30px;
+    margin: 10px;
+    border: 1px rgb(31, 91, 219) solid;
+}
+
+.numberRedondo:focus{
+    background: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
+
+.terminology{
+    font-size: 1.3rem;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.notShow{
+    display: none;
+    position: relative;
+}
+
+
+.width50percent{
+    width: 45%;
+    padding: 10px;
+}
+
+.width50percent img{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+@media screen and (min-width: 601px){
+
+}
+  
+@media screen and (max-width: 600px){
+    .width50percent img{
+        width: 100%;
+        max-width: 500px;
+        min-width: 200px;
+    }
+
+    .numberSelector{
+        flex-direction: row;
+    }
+
+    .numberRedondo{
+        background: none;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        padding: 8px 15px 8px 15px;
+        margin: 10px;
+        border: 1px rgb(31, 91, 219) solid;
+    }
+    
+    .terminology{
+        font-size: 1rem;
+    }
+
+    .technologyContainer{
+        flex-direction: column;
+    }
+
+    .show{
+        flex-direction: column;
+    }
+
+    #terminologyTitle{
+        text-align: center;
+    }
+
+    .width50percent{
+        width: 90%;
+    }
+}
